@@ -1,13 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    color_text (0.0.3)
     mac-say (0.2.1)
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
-  mac-say
+  color_text (~> 0.0.3)
+  mac-say (~> 0.2.1)
 
 BUNDLED WITH
-   1.16.2
+   1.17.3
